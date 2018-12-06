@@ -31,4 +31,4 @@ Send your comments or open pull requests and lets build more awesome stuff
 License
 ----
 
-MIT
+Apache 2.0
