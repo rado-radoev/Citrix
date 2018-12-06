@@ -1,6 +1,18 @@
 ﻿$VerbosePreferenceOld = $VerbosePreference
 $VerbosePreference = "Continue"
 
+
+
+<#
+
+	This script is usually run as a scheduled task on a StoreFront server or a server
+	that has access to the storefront servers. It should be using an account that has 
+	at least access to read the event logs. It could be set up to run either on event
+	or every X minutes to check the event logs for specific event IDs and fire an e-mail
+	alert if X event entries are detected in X amount of minutes.
+
+#>
+
 #region Send-mail
 Function Send-Mail{
     [CmdletBinding()]
