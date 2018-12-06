@@ -49,7 +49,8 @@ $LoginJSON = ConvertTo-Json @{
                             }
 #>
 
-$LoginJSON = 'object= { "login": { "username":"nsroot", "password":"Alp5ie" }}'
+
+$LoginJSON = 'object= { "login": { "username":"$UnsecureUser", "password":"$UnsecurePassword" }}'
 
 $LoginREST = Invoke-RestMethod -Uri "$configURI/login" -Body $LoginJSON -Method POST -SessionVariable NetScalerSession -ContentType $CONTENTTYPE
 #endregion
