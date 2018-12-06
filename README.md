@@ -16,13 +16,13 @@ Auotmate Citrix with PowerShell is a PowerShell repository containig script to h
 
 Citrix PoSh Automation requires [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/setup/installing-windows-powershell?view=powershell-6) v3+ to run.
 
-Download the script tha you want or clone the repository
+Download the script that you want or clone the repository
 
 ### Development
 
 Want to contribute? Great!
 
-Send your comments or open pull requests and lets build more awesome stuff
+Send your comments or open pull requests and lets build more awesome stuff!
 
 ### Todos
 
