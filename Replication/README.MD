@@ -1,0 +1,1 @@
+This folder will contain scripts that can be used for DR and replicate applications from on farm to another
